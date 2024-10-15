@@ -1,0 +1,123 @@
+/* src/styles/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  margin: 5px;
+  padding: 4px 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-edit {
+  background-color: green;
+  color: white;
+}
+.btn-edit:hover {
+  background-color: #1c691d;
+  color: white;
+}
+
+.btn-delete {
+  background-color: red;
+  color: white;
+}
+.btn-delete:hover {
+  background-color: #bf1d1d;
+  color: white;
+}
+
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 40%;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  border: 1px solid #615a4f;
+}
+
+th {
+  background-color: black;
+  color: white;
+  padding: 8px;
+}
+
+td {
+  padding: 3px;
+  background-color: #5f8bb3;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.confirm-btn,
+.cancel-btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.confirm-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.confirm-btn:hover {
+  background-color: #45a049;
+}
+
+.cancel-btn:hover {
+  background-color: #e53935;
+}
